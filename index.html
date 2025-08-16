@@ -10,9 +10,9 @@
   
   <!-- Navbar -->
   <header class="bg-purple-600 text-white shadow-md">
-    <div class="container mx-auto flex justify-between items-center px-6 py-4">
-      <h1 class="text-2xl font-bold flex items-center gap-3">
-        <img class="w-10 h-10 rounded-full" src="./logo.png" alt="LoveConnect Logo">
+    <div class="container mx-auto  flex justify-between items-center px-6 py-4">
+      <h1 class="text-lg md:text-2xl font-bold flex items-center gap-1 md:gap-3">
+        <img class="w-8 h-8 md:w-10 md:h-10 rounded-full" src="./logo.png" alt="LoveConnect Logo">
         LoveConnect
       </h1>
       
@@ -27,13 +27,18 @@
         </nav>
         
         <!-- Auth Buttons - Always Visible -->
-        <div class="flex items-center space-x-3">
-          <a href="#" class="bg-white text-purple-600 font-semibold px-4 py-2 rounded-full hover:bg-purple-100 transition-colors">Login</a>
-          <a href="#" class="bg-purple-500 text-white font-semibold px-4 py-2 rounded-full hover:bg-purple-400 transition-colors">Sign Up</a>
+        <div class="flex items-center space-x-2 text-sm sm:space-x-3 sm:text-base">
+          <a href="#" class="bg-white text-purple-600 font-semibold px-2 py-1 sm:px-3 sm:py-2 rounded-full hover:bg-purple-100 transition-colors">
+            Login
+          </a>
+          <a href="#" class="bg-purple-500 text-white font-semibold px-2 py-1 sm:px-3 sm:py-2 rounded-full hover:bg-purple-400 transition-colors">
+            Sign Up
+          </a>
         </div>
         
+        
         <!-- Mobile Menu Button -->
-        <button id="mobile-menu-button" class="md:hidden ml-3 p-2 rounded-lg hover:bg-purple-500 transition-colors">
+        <button id="mobile-menu-button" class="md:hidden ml-3 p-1 rounded-lg hover:bg-purple-500 transition-colors">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
